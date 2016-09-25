@@ -1,6 +1,7 @@
 ---
 title: About
 layout: page
+description: "This blog is meant to be a medium for the personal stories of open source developers."
 ---
 
 This blog is meant to be a medium for the personal stories of open source

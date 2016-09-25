@@ -1,9 +1,10 @@
 ---
 title: The Questions
 layout: page
+description: "These are the questions used in each interview:"
 ---
 
-The following are the base questions used in each interview:
+The following are the questions used in each interview:
 
 1. What project do you maintain and what was your motivation for creating the project and releasing it as open source software?
 1. Was the project meant to solve a specific problem, or was it born out of a larger opportunity you saw?
