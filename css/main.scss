@@ -1,0 +1,49 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import 'bootstrap/bootstrap';
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
+
+.site-nav {
+  border-bottom: solid 1px #bbb;
+  margin-bottom: 3em;
+  h1 {
+    margin-bottom: 0;
+    font-size: 50px;
+  }
+  .description {
+    max-width: 600px;
+  }
+}
+
+.site-footer {
+  border-top: solid 1px #bbb;
+  margin-top: 5em;
+  padding-top: 1em;
+  font-size: 12px;
+  p {
+    margin: 0 0 0.5em 0;
+  }
+  a {
+    text-decoration: underline;
+  }
+}
+
+#content {
+  h1,h2 {
+    margin-top: 0;
+    font-size: 40px;
+  }
+}
+
+.post-meta {
+
+}
+
+.post-content {
+
+}
