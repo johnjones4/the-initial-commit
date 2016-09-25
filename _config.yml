@@ -5,7 +5,7 @@ url: "https://theinitialcommit.com"
 markdown: kramdown
 permalink: pretty
 paginate: 10
-exclude: ["s3_website.yml"]
+exclude: ["Gemfile","Gemfile.lock","s3_website.yml"]
 gems: ["jekyll-paginate"]
 
 sass:
