@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
       margin-left: 0;
     }
     h1 {
-      margin: 0 0 0.5em 0;
+      margin: 0 0 0.3em 0;
       @media (max-width: 1400px) {
         font-size: floor(($font-size-base * 2));
       }
@@ -48,6 +48,7 @@ h1,h2,h3,h4,h5,h6 {
       }
       a {
         color: #fff;
+        text-decoration: underline;
       }
     }
     p {
@@ -55,9 +56,19 @@ h1,h2,h3,h4,h5,h6 {
       font-style: italic;
       line-height: 1.5em;
       margin: 0 0 0.5em 0;
-      a {
-        color: $gray-midlight;
-        text-decoration: underline;
+    }
+    .nav {
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0;
+        padding: 0 0.5em 0 0 ;
+        list-style: none;
+        display: inline;
+        a {
+          color: $gray-midlight;
+          text-decoration: underline;
+        }
       }
     }
   }

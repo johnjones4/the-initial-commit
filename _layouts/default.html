@@ -13,7 +13,11 @@
         <header class="header-inner">
           <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
           <p class="description">{{ site.description }}</p>
-
+          <ul class="nav">
+            {% for link in site.pages %}{% if link.title %}
+              <li {% if page.url == link.url %}class="active"{% endif %}><a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a></li>
+            {% endif %}{% endfor %}
+          </ul>
         </header>
       </div>
       <div class="main col-md-6 col-md-offset-5">
@@ -23,16 +27,11 @@
         <footer class="site-footer">
           <div class="row">
             <div class="col-md-5">
-              <p>This is a project by <a href="https://johnjonesfour.com" target="_blank">John Jones</a>. If you are an open source software developer and would like to be featured, please get in touch at <a href="mailto:john@theinitialcommit.com">john@theinitialcommit.com</a>.</p>
+              <p>This is a project by <a href="https://johnjonesfour.com" target="_blank">John Jones</a>.</p>
               <p>
                 Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> |
                 View source: <a target="_blank" href="https://github.com/johnjones4/the-initial-commit">on Github</a>
               </p>
-              <ul class="nav">
-                {% for link in site.pages %}{% if link.title %}
-                  <li {% if page.url == link.url %}class="active"{% endif %}><a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a></li>
-                {% endif %}{% endfor %}
-              </ul>
             </div>
             <div class="col-md-5 col-md-offset-2 signup">
               <p>Get these personal stories delivered directly to your inbox. (With a promise of nothing else.)</p>
