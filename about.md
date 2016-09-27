@@ -2,6 +2,7 @@
 title: About
 layout: page
 description: "This blog is meant to be a medium for the personal stories of open source developers."
+show_in_nav: true
 ---
 
 This blog is meant to be a medium for the personal stories of open source
