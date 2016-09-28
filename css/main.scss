@@ -89,17 +89,24 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 article {
+  padding-bottom: 2em;
   h1,h2 {
     font-size: $font-size-h2;
     color: $brand-primary;
-    padding-top: 3em;
+    margin-bottom: 0;
+  }
+  .post-projects {
+    color: $gray;
+    margin: 0;
   }
   .post-meta {
+    margin-top: 0.5em;
     color: $gray-midlight;
   }
 }
 
 .main {
+  padding-top: 3em;
   @media (max-width: $screen-lg) {
     padding: 0 30px;
   }

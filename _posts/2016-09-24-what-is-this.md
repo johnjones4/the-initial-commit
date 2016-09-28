@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "What is This?"
-date:   2016-09-24 20:29:38 -0400
 description: "Virtually all developers rely on open source software as part of their daily lives."
 ---
 

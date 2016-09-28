@@ -7,9 +7,9 @@ layout: default
     <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
     </h2>
+    {% if post.projects %}
+      <p class="post-projects">{{ post.projects | join: ', ' }}</p>
+    {% endif %}
     <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-    <div class="post-content">
-      {{ post.content }}
-    </div>
   </article>
 {% endfor %}
