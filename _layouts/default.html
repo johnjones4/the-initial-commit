@@ -8,50 +8,52 @@
   </head>
   <body role="document" class="{{ page.layout }} {{ page.slug }}">
     {% include global/pre_content_includes.html %}
-    <div class="row">
-      <div class="header col-md-4">
-        <header class="header-inner">
-          <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-          <p class="description">{{ site.description }}</p>
-          <ul class="nav">
-            {% for link in site.pages %}
-              {% if link.title %}
-                {% if link.show_in_nav %}
-                  <li {% if page.url == link.url %}class="active"{% endif %}><a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a></li>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="header col-md-4">
+          <header class="header-inner">
+            <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            <p class="description">{{ site.description }}</p>
+            <ul class="nav">
+              {% for link in site.pages %}
+                {% if link.title %}
+                  {% if link.show_in_nav %}
+                    <li {% if page.url == link.url %}class="active"{% endif %}><a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a></li>
+                  {% endif %}
                 {% endif %}
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </header>
-      </div>
-      <div class="main col-md-6 col-md-offset-5">
-        <section class="content">
-          {{ content }}
-        </section>
-        <footer class="site-footer">
-          <div class="row">
-            <div class="col-md-5">
-              <p>This is a project by <a href="https://johnjonesfour.com" target="_blank">John Jones</a>.</p>
-              <p>
-                Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> |
-                View source: <a target="_blank" href="https://github.com/johnjones4/the-initial-commit">on Github</a>
-              </p>
+              {% endfor %}
+            </ul>
+          </header>
+        </div>
+        <div class="main col-md-6 col-md-offset-5">
+          <section class="content">
+            {{ content }}
+          </section>
+          <footer class="site-footer">
+            <div class="row">
+              <div class="col-md-5">
+                <p>This is a project by <a href="https://johnjonesfour.com" target="_blank">John Jones</a>.</p>
+                <p>
+                  Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> |
+                  View source: <a target="_blank" href="https://github.com/johnjones4/the-initial-commit">on Github</a>
+                </p>
+              </div>
+              <div class="col-md-5 col-md-offset-2 signup">
+                <p>Get these personal stories delivered directly to your inbox. (With a promise of nothing else.)</p>
+                <form action="//theinitialcommit.us14.list-manage.com/subscribe/post?u=5159533459b33024e54e43c87&amp;id=adcebaa57e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5159533459b33024e54e43c87_adcebaa57e" tabindex="-1" value=""></div>
+                  <div class="input-group">
+                    <label for="mce-EMAIL" class="sr-only">Email Address</label>
+                    <input class="form-control input-sm" type="email" id="mce-EMAIL" name="EMAIL" placeholder="Email Address" />
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn btn-sm btn-primary">Sign Up</button>
+                    </span>
+                  </div>
+                </form>
+              <div>
             </div>
-            <div class="col-md-5 col-md-offset-2 signup">
-              <p>Get these personal stories delivered directly to your inbox. (With a promise of nothing else.)</p>
-              <form action="//theinitialcommit.us14.list-manage.com/subscribe/post?u=5159533459b33024e54e43c87&amp;id=adcebaa57e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5159533459b33024e54e43c87_adcebaa57e" tabindex="-1" value=""></div>
-                <div class="input-group">
-                  <label for="mce-EMAIL" class="sr-only">Email Address</label>
-                  <input class="form-control input-sm" type="email" id="mce-EMAIL" name="EMAIL" placeholder="Email Address" />
-                  <span class="input-group-btn">
-                    <button type="submit" class="btn btn-sm btn-primary">Sign Up</button>
-                  </span>
-                </div>
-              </form>
-            <div>
-          </div>
-        </footer>
+          </footer>
+        </div>
       </div>
     </div>
     {% include global/post_content_includes.html %}
