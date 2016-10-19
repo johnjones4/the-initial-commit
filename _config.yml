@@ -6,7 +6,9 @@ markdown: kramdown
 permalink: pretty
 paginate: 10
 exclude: ["Gemfile","Gemfile.lock","s3_website.yml"]
-gems: ["jekyll-paginate"]
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
 
 sass:
   style: compressed
