@@ -8,7 +8,7 @@ links:
   - name: github.com/tmcw
     url: https://github.com/tmcw
 projects:
-  - Socumentation.js
+  - Documentation.js
   - Simple-Statistics
   - Big
 ---
