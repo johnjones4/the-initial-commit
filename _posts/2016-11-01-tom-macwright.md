@@ -83,7 +83,7 @@ decision-making work.
 I stay involved as long as I feel like something is useful - whether to the
 larger community or to myself as a learning opportunity. When things start being
 thankless, or a project is unsuccessful, I'll let it go - earlier this year I
-put 40 projects up for adoption (http://www.macwright.org/2016/01/30/adopt.html)[http://www.macwright.org/2016/01/30/adopt.html].
+put 40 projects up for adoption [http://www.macwright.org/2016/01/30/adopt.html](http://www.macwright.org/2016/01/30/adopt.html).
 
 ### What is the most important thing someone submitting an issue or patch should know?
 
