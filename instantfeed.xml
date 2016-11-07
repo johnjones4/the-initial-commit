@@ -1,0 +1,49 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.description | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <content:encoded>
+          <![CDATA[
+          <!doctype html>
+          <html lang="en" prefix="op: http://media.facebook.com/op#">
+            <head>
+              <meta charset="utf-8">
+              <link rel="canonical" href="{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+              <meta property="op:markup_version" content="v1.0">
+            </head>
+            <body>
+              <article>
+                <header>
+                  <h1>{{ page.title }}</h1>
+                  <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+                </header>
+                {{ post.content }}
+                <footer>
+                  <p>This is a project by <a href="https://johnjonesfour.com" target="_blank">John Jones</a>.</p>
+                  <p><a href="http://eepurl.com/cmHicj" target="_blank">Sign up for updates.</a> Get these personal stories delivered directly to your inbox.</p>
+                </footer>
+              </article>
+            </body>
+          </html>
+          ]]>
+        </content:encoded>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
