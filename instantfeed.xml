@@ -7,17 +7,17 @@ layout: null
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
+    <atom:link href="{{ "/instantfeed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}</id>
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <author>{{ site.owner.name }}</author>
+        <description>{{ post.description | xml_escape }}</description>
         <content:encoded>
           <![CDATA[
           <!doctype html>
@@ -25,18 +25,23 @@ layout: null
             <head>
               <meta charset="utf-8">
               <link rel="canonical" href="{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-              <meta property="op:markup_version" content="v1.0">
+              <meta property="op:markup_version" content="v1.0" />
+              <title>{{ post.title }}</title>
+              <link rel="stylesheet" title="default" href="#" />
             </head>
             <body>
               <article>
                 <header>
-                  <h1>{{ page.title }}</h1>
-                  <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+                  <figure>
+                    <img src="{{ site.url }}/{{ site.og_image }}" />
+                  </figure>
+                  <h1>{{ post.title }}</h1>
+                  <time class="op-published" datetime="{{ post.date | date: "%Y-%m-%d %H:%M:%S %Z" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+                  <h2>{{ post.projects | join: ', ' }}</h2>
                 </header>
-                {{ post.content }}
+                {{ post.content | replace: '<h3', '<h2' | replace: '</h3>', '</h2>' }}
                 <footer>
-                  <p>This is a project by <a href="https://johnjonesfour.com" target="_blank">John Jones</a>.</p>
-                  <p><a href="http://eepurl.com/cmHicj" target="_blank">Sign up for updates.</a> Get these personal stories delivered directly to your inbox.</p>
+                  <aside>This is a project by <a href="https://johnjonesfour.com" target="_blank">John Jones</a>.</aside>
                 </footer>
               </article>
             </body>

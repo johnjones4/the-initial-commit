@@ -14,7 +14,7 @@ sass:
   style: compressed
 
 twitter_handle: https://twitter.com/_theIntialCommi
-og_image: "og.png"
-twitter_image: "twitter.png"
+og_image: "img/og.png"
+twitter_image: "img/twitter.png"
 
 ampdir: amp
