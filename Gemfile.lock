@@ -1,12 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
     colored (1.2)
     configure-s3-website (1.7.1)
       deep_merge (= 1.0.0)
     deep_merge (1.0.0)
     dotenv (1.0.2)
+    fastimage (2.0.1)
+      addressable (~> 2)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
     jekyll (3.2.1)
@@ -31,8 +35,10 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
+    nokogiri (1.5.6)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
+    public_suffix (2.0.4)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -50,9 +56,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  fastimage
   jekyll (= 3.2.1)
   jekyll-paginate
   jekyll-sitemap
+  nokogiri
   s3_website
 
 RUBY VERSION

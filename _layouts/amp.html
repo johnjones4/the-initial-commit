@@ -1,0 +1,70 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="canonical" href="{{ page.canonical_url | prepend: site.baseurl | prepend: site.url }}" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Open+Sans:700" rel="stylesheet" />
+    <style amp-custom>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Bitter, sans-serif;
+        color: #333;
+      }
+      h1,h2,h3,h4,h5,h6 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+      }
+      header {
+        background: linear-gradient(to right, #333 0%,#222 100%);
+        padding: 2em;
+        color: white;
+      }
+      header a {
+        color: white;
+      }
+      header h1 {
+        margin: 0;
+      }
+      header .description {
+        color: #777;
+        font-style: italic;
+        line-height: 1.5em;
+      }
+      article {
+        padding: 2em;
+      }
+      article h2 {
+        color: #CE2323;
+        margin: 0;
+      }
+      article .post-meta {
+        color: #b3b3b3;
+      }
+      footer {
+        padding: 1em;
+        font-size: 0.9em;
+        line-height: 1.5em;
+      }
+    </style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <p class="description">{{ site.description }}</p>
+    </header>
+    <article>
+      <h2>{{ page.title }}</h2>
+      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+      {{ page.body | markdownify | amp_images }}
+    </article>
+    <footer>
+      <p>This is a project by <a href="https://johnjonesfour.com" target="_blank">John Jones</a>.</p>
+      <p><a href="http://eepurl.com/cmHicj" target="_blank">Sign up for updates.</a> Get these personal stories delivered directly to your inbox.</p>
+    </footer>
+  </body>
+</html>
