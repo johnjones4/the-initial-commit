@@ -8,9 +8,12 @@ links:
   - name: github.com/tmcw
     url: https://github.com/tmcw
 projects:
-  - Documentation.js
-  - Simple-Statistics
-  - Big
+  - name: Documentation.js
+    link: http://documentation.js.org/
+  - name: Simple-Statistics
+    link: http://simplestatistics.org/
+  - name: Big
+    link: http://www.macwright.org/big/
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

@@ -1,5 +1,5 @@
 ---
-title: The Questions
+title: Questions
 layout: page
 description: "These are the questions used in each interview:"
 show_in_nav: true

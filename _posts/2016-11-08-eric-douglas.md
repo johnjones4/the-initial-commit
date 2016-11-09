@@ -8,8 +8,10 @@ links:
   - name: github.com/ericdouglas
     url: https://github.com/ericdouglas
 projects:
-  - OSSU-CS
-  - Open Source Society
+  - name: OSSU-CS
+    link: https://github.com/open-source-society/computer-science
+  - name: Open Source Society
+    link: https://github.com/open-source-society
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

@@ -98,6 +98,9 @@ article {
   .post-projects {
     color: $gray;
     margin: 0;
+    a {
+      color: inherit;
+    }
   }
   .post-meta {
     margin-top: 0.5em;

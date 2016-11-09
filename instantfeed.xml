@@ -37,7 +37,7 @@ layout: null
                   </figure>
                   <h1>{{ post.title }}</h1>
                   <time class="op-published" datetime="{{ post.date | date: "%Y-%m-%d %H:%M:%S %Z" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-                  <h2>{{ post.projects | join: ', ' }}</h2>
+                  <h2>{% include projects.html %}</h2>
                 </header>
                 {{ post.content | replace: '<h3', '<h2' | replace: '</h3>', '</h2>' }}
                 <footer>

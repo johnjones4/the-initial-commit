@@ -8,7 +8,8 @@ links:
   - name: github.com/macournoyer
     url: https://github.com/macournoyer
 projects:
-  - Thin
+  - name: Thin
+    link: https://rubygems.org/gems/thin
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

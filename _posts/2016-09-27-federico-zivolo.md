@@ -8,8 +8,10 @@ links:
   - name: github.com/FezVrasta
     url: https://github.com/FezVrasta
 projects:
-  - Bootstrap Material Design
-  - Popper.js
+  - name: Bootstrap Material Design
+    link: http://fezvrasta.github.io/bootstrap-material-design/
+  - name: Popper.js
+    link: https://popper.js.org/
 ---
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?
 

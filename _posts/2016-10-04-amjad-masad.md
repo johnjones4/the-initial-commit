@@ -8,8 +8,10 @@ links:
   - name: github.com/amasad
     url: https://github.com/amasad
 projects:
-  - BabelJS
-  - React Native
+  - name: BabelJS
+    link: https://babeljs.io/
+  - name: React Native
+    link: http://www.reactnative.com/
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

@@ -8,8 +8,10 @@ links:
   - name: github.com/ashfurrow
     url: https://github.com/ashfurrow
 projects:
-  - Moya
-  - RxSwiftCommunity
+  - name: Moya
+    link: https://github.com/Moya/Moya
+  - name: RxSwiftCommunity
+    link: https://github.com/RxSwiftCommunity
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?
