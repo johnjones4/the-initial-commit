@@ -19,7 +19,7 @@
       <p class="description">{{ site.description }}</p>
       <ul class="nav">{% for link in site.pages %}{% if link.title %}{% if link.show_in_nav %}<li {% if page.url == link.url %}class="active"{% endif %}><a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a></li>{% endif %}{% endif %}{% endfor %}</ul>
     </header>
-    <article itemscope itemtype="http://schema.org/BlogPosting">
+    <article itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
       <h1 itemprop="name headline author">{{ page.title }}</h1>
       {% if page.projects %}<p class="post-projects" itemprop="sourceOrganization keywords">{% include projects.html %}</p>{% endif %}
       <time class="post-meta" datetime="{{ page.date | date: '%Y-%m-%d %H:%M:%S %Z' }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
