@@ -1,5 +1,1 @@
-{% if page.projects %}
-  {% for project in page.projects %}
-    <a href="{{ project.link }}" target="_blank">{{ project.name }}</a>{% if forloop.last != true %},{% endif %}
-  {% endfor %}
-{% endif %}
+{% if page.projects %}{% for project in page.projects %}<a href="{{ project.link }}" target="_blank">{{ project.name }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}{% endif %}

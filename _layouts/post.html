@@ -2,24 +2,18 @@
 layout: default
 ---
 
-<article>
-  <h1>{{ page.title }}</h1>
-  {% if page.projects %}
-    <p class="post-projects">
-      {% include projects.html %}
-    </p>
-  {% endif %}
-  <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+<article itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  <h1 itemprop="name headline author">{{ page.title }}</h1>
+  {% if page.projects %}<p class="post-projects" itemprop="sourceOrganization keywords">{% include projects.html %}</p>{% endif %}
+  <time class="post-meta" datetime="{{ page.date | date: '%Y-%m-%d %H:%M:%S %Z' }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
   <div class="addthis_inline_share_toolbox"></div>
-  <div class="post-content">
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
-    {% if page.links %}
-      <h3>Learn More:</h3>
-      <div class="btn-group">
-        {% for link in page.links %}
-          <a class="btn btn-default btn-sm" target="_blank" href="{{ link.url }}">{{ link.name }}</a>
-        {% endfor %}
-      </div>
-    {% endif %}
+    {% if page.links %}<h3>Learn More:</h3>
+    <div class="btn-group">
+      {% for link in page.links %}
+        <a class="btn btn-default btn-sm" target="_blank" href="{{ link.url }}">{{ link.name }}</a>
+      {% endfor %}
+    </div>{% endif %}
   </div>
 </article>

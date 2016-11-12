@@ -7,61 +7,37 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Open+Sans:700" rel="stylesheet" />
     <style amp-custom>
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: Bitter, sans-serif;
-        color: #333;
-      }
-      h1,h2,h3,h4,h5,h6 {
-        font-family: "Open Sans", sans-serif;
-        font-weight: 700;
-      }
-      header {
-        background: linear-gradient(to right, #333 0%,#222 100%);
-        padding: 2em;
-        color: white;
-      }
-      header a {
-        color: white;
-      }
-      header h1 {
-        margin: 0;
-      }
-      header .description {
-        color: #777;
-        font-style: italic;
-        line-height: 1.5em;
-      }
-      article {
-        padding: 2em;
-      }
-      article h2 {
-        color: #CE2323;
-        margin: 0;
-      }
-      article .post-meta {
-        color: #b3b3b3;
-      }
-      footer {
-        padding: 2em;
-      }
+      html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:transparent}body{font-family:"Bitter","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:18px;line-height:2;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#CE2323;text-decoration:none}a:hover,a:focus{color:#8d1818;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:2;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:36px;margin-bottom:36px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1 small,h1 .small,h2 small,h2 .small,h3 small,h3 .small,h4 small,h4 .small,h5 small,h5 .small,h6 small,h6 .small,.h1 small,.h1 .small,.h2 small,.h2 .small,.h3 small,.h3 .small,.h4 small,.h4 .small,.h5 small,.h5 .small,.h6 small,.h6 .small{font-weight:400;line-height:1;color:#777}h1,.h1,h2,.h2,h3,.h3{margin-top:36px;margin-bottom:18px}h1 small,h1 .small,.h1 small,.h1 .small,h2 small,h2 .small,.h2 small,.h2 .small,h3 small,h3 .small,.h3 small,.h3 .small{font-size:65%}h4,.h4,h5,.h5,h6,.h6{margin-top:18px;margin-bottom:18px}h4 small,h4 .small,.h4 small,.h4 .small,h5 small,h5 .small,.h5 small,.h5 .small,h6 small,h6 .small,.h6 small,.h6 .small{font-size:75%}h1,.h1{font-size:45px}h2,.h2{font-size:25px}h3,.h3{font-size:22px}h4,.h4{font-size:20px}h5,.h5{font-size:18px}h6,.h6{font-size:16px}p{margin:0 0 18px}.lead{margin-bottom:36px;font-size:27px;font-weight:300;line-height:1.4}small,.small{font-size:88%}mark,.mark{background-color:#fcf8e3;padding:.2em}.text-left{text-align:left}.text-right{text-align:right}.text-center{text-align:center}.text-justify{text-align:justify}.text-nowrap{white-space:nowrap}.text-lowercase{text-transform:lowercase}.text-uppercase,.initialism{text-transform:uppercase}.text-capitalize{text-transform:capitalize}.text-muted{color:#777}.text-primary{color:#CE2323}a.text-primary:hover,a.text-primary:focus{color:#a21c1c}.text-success{color:#3c763d}a.text-success:hover,a.text-success:focus{color:#2b542c}.text-info{color:#31708f}a.text-info:hover,a.text-info:focus{color:#245269}.text-warning{color:#8a6d3b}a.text-warning:hover,a.text-warning:focus{color:#66512c}.text-danger{color:#a94442}a.text-danger:hover,a.text-danger:focus{color:#843534}.bg-primary{color:#fff;background-color:#CE2323}a.bg-primary:hover,a.bg-primary:focus{background-color:#a21c1c}.bg-success{background-color:#dff0d8}a.bg-success:hover,a.bg-success:focus{background-color:#c1e2b3}.bg-info{background-color:#d9edf7}a.bg-info:hover,a.bg-info:focus{background-color:#afd9ee}.bg-warning{background-color:#fcf8e3}a.bg-warning:hover,a.bg-warning:focus{background-color:#f7ecb5}.bg-danger{background-color:#f2dede}a.bg-danger:hover,a.bg-danger:focus{background-color:#e4b9b9}.page-header{padding-bottom:17px;margin:72px 0 36px;border-bottom:1px solid #eee}ul,ol{margin-top:0;margin-bottom:18px}ul ul,ul ol,ol ul,ol ol{margin-bottom:0}.list-unstyled{padding-left:0;list-style:none}.list-inline{padding-left:0;list-style:none;margin-left:-5px}.list-inline>li{display:inline-block;padding-left:5px;padding-right:5px}dl{margin-top:0;margin-bottom:36px}dt,dd{line-height:2}dt{font-weight:700}dd{margin-left:0}.dl-horizontal dd:before,.dl-horizontal dd:after{content:" ";display:table}.dl-horizontal dd:after{clear:both}@media (min-width: 768px){.dl-horizontal dt{float:left;width:160px;clear:left;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.dl-horizontal dd{margin-left:180px}}abbr[title],abbr[data-original-title]{cursor:help;border-bottom:1px dotted #777}.initialism{font-size:90%}blockquote{padding:18px 36px;margin:0 0 36px;font-size:22.5px;border-left:5px solid #eee}blockquote p:last-child,blockquote ul:last-child,blockquote ol:last-child{margin-bottom:0}blockquote footer,blockquote small,blockquote .small{display:block;font-size:80%;line-height:2;color:#777}blockquote footer:before,blockquote small:before,blockquote .small:before{content:'\2014 \00A0'}.blockquote-reverse,blockquote.pull-right{padding-right:15px;padding-left:0;border-right:5px solid #eee;border-left:0;text-align:right}.blockquote-reverse footer:before,.blockquote-reverse small:before,.blockquote-reverse .small:before,blockquote.pull-right footer:before,blockquote.pull-right small:before,blockquote.pull-right .small:before{content:''}.blockquote-reverse footer:after,.blockquote-reverse small:after,.blockquote-reverse .small:after,blockquote.pull-right footer:after,blockquote.pull-right small:after,blockquote.pull-right .small:after{content:'\00A0 \2014'}address{margin-bottom:36px;font-style:normal;line-height:2}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.container:before,.container:after{content:" ";display:table}.container:after{clear:both}@media (min-width: 768px){.container{width:750px}}@media (min-width: 992px){.container{width:970px}}@media (min-width: 1200px){.container{width:1170px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.container-fluid:before,.container-fluid:after{content:" ";display:table}.container-fluid:after{clear:both}
+      h1,h2,h3,h4,h5,h6{font-family:"Open Sans";font-weight:700}.header{background:#333;background:linear-gradient(to right, #333 0%, #222 100%);position:static;display:block display: block;margin:auto;padding:2em}.header h1{margin:0 0 0.3em 0;font-size:31px}.header h1 a{color:#fff;text-decoration:underline}.header p{color:#777;font-style:italic;line-height:1.5em;margin:0 0 0.5em 0}.header .nav{margin:0;padding:0}.header .nav li{margin:0;padding:0 0.5em 0 0;list-style:none;display:inline}.header .nav li a{color:#b3b3b3;text-decoration:underline}.site-footer{margin:3em 36px 0 36px;border-top:solid 1px #555;padding-top:2em;padding-bottom:2em;font-size:12px}.site-footer p{margin:0 0 0.5em 0}.site-footer a{text-decoration:underline}article{margin:0 2em;}article h1,article h2{font-size:25px;color:#CE2323;margin-bottom:0}article .post-projects{color:#555;margin:0}article .post-projects a{color:inherit}article .post-meta{display:block;margin:0.5em 0 1em 0;color:#b3b3b3}.main{padding:0 30px}
     </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
       <p class="description">{{ site.description }}</p>
+      <ul class="nav">{% for link in site.pages %}{% if link.title %}{% if link.show_in_nav %}<li {% if page.url == link.url %}class="active"{% endif %}><a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a></li>{% endif %}{% endif %}{% endfor %}</ul>
     </header>
-    <article>
-      <h2>{{ page.title }}</h2>
-      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-      {{ page.body | markdownify | amp_images }}
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <h1 itemprop="name headline author">{{ page.title }}</h1>
+      {% if page.projects %}<p class="post-projects" itemprop="sourceOrganization keywords">{% include projects.html %}</p>{% endif %}
+      <time class="post-meta" datetime="{{ page.date | date: '%Y-%m-%d %H:%M:%S %Z' }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+      <div class="addthis_inline_share_toolbox"></div>
+      <div class="post-content" itemprop="articleBody">
+        {{ page.body | markdownify | amp_images }}
+        {% if page.links %}<h3>Learn More:</h3>
+        <div class="btn-group">
+          {% for link in page.links %}
+            <a class="btn btn-default btn-sm" target="_blank" href="{{ link.url }}">{{ link.name }}</a>
+          {% endfor %}
+        </div>{% endif %}
+      </div>
     </article>
-    <footer>
-      <p>This is a project by <a href="https://johnjonesfour.com" target="_blank">John Jones</a>.</p>
+    <footer class="site-footer">
+      <p>
+        {% include project_credit.html %}
+      </p>
       <p><a href="http://eepurl.com/cmHicj" target="_blank">Sign up for updates.</a> Get these personal stories delivered directly to your inbox.</p>
     </footer>
   </body>

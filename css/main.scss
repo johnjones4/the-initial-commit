@@ -103,7 +103,8 @@ article {
     }
   }
   .post-meta {
-    margin-top: 0.5em;
+    display: block;
+    margin: 0.5em 0 1em 0;
     color: $gray-midlight;
   }
 }

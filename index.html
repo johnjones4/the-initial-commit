@@ -2,14 +2,13 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-  <article>
-    <h2>
+<div itemscope itemtype="http://schema.org/Blog">
+  {% for post in site.posts %}<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+    <h2 itemprop="name headline author">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
     </h2>
-    {% if post.projects %}
-      <p class="post-projects">{{ post.projects | map: 'name' | join: ', ' }}</p>
-    {% endif %}
-    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+    {% if post.projects %}<p class="post-projects" itemprop="sourceOrganization keywords">{{ post.projects | map: 'name' | join: ', ' }}</p>{% endif %}
+    <time class="post-meta" datetime="{{ post.date | date: '%Y-%m-%d %H:%M:%S %Z' }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
   </article>
-{% endfor %}
+  {% endfor %}
+</div>
