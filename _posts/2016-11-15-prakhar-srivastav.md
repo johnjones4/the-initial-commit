@@ -12,7 +12,7 @@ projects:
     link: http://prakhar.me/docker-curriculum/
   - name: React-Tags
     link: https://github.com/prakhar1989/react-tags
-  - name: Hindley-Milner type inference
+  - name: type-inference
     link: https://github.com/prakhar1989/type-inference
 ---
 
