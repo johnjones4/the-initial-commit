@@ -9,6 +9,7 @@ exclude: ["Gemfile","Gemfile.lock","s3_website.yml","Readme.md"]
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-minimagick
 
 sass:
   style: compressed

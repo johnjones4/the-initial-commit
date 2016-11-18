@@ -3,12 +3,15 @@ layout: default
 ---
 
 <div itemscope itemtype="http://schema.org/Blog">
-  {% for post in site.posts %}<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  {% for post in paginator.posts %}<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <h2 itemprop="name headline author">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
     </h2>
     {% if post.projects %}<p class="post-projects" itemprop="sourceOrganization keywords">{{ post.projects | map: 'name' | join: ', ' }}</p>{% endif %}
     <time class="post-meta" datetime="{{ post.date | date: '%Y-%m-%d %H:%M:%S %Z' }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-  </article>
-  {% endfor %}
+  </article>{% endfor %}
+  <div class="btn-group">
+    {% if paginator.previous_page %}<a class="btn btn-sm btn-default" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>{% endif %}
+    {% if paginator.next_page %}<a  class="btn btn-sm btn-default" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>{% endif %}
+  </div>
 </div>
