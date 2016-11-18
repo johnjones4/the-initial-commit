@@ -19,3 +19,13 @@ og_image: "img/og.png"
 twitter_image: "img/twitter.png"
 
 ampdir: amp
+
+mini_magick:
+  og:
+    source: img/posts
+    destination: img/og/posts
+    resize: "1200x630"
+  twitter:
+    source: img/posts
+    destination: img/twitter/posts
+    resize: "280x150"

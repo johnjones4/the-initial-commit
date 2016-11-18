@@ -33,7 +33,7 @@ layout: null
               <article>
                 <header>
                   <figure>
-                    <img src="{{ site.url }}/{{ site.og_image }}" />
+                    <img src="{{ site.url }}/{% if post.image %}img/og/posts/{{ post.image }}{% else %}{{ site.og_image }}{% endif %}" />
                   </figure>
                   <h1>{{ post.title }}</h1>
                   <time class="op-published" datetime="{{ post.date | date: "%Y-%m-%d %H:%M:%S %Z" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
