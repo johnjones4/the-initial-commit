@@ -4,11 +4,6 @@
 @charset "utf-8";
 @import 'bootstrap/bootstrap';
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Open Sans";
-  font-weight: 700;
-}
-
 .header {
   position: fixed;
   top: 0;
@@ -109,6 +104,23 @@ article {
   }
   .post-image {
     margin-top: 2em;
+  }
+
+  &.post {
+    h2 {
+      font-family: $font-family-base;
+      font-size: $font-size-base;
+      line-height: $line-height-base;
+      font-weight: normal;
+    }
+  }
+  &.teaser {
+    h3 {
+      font-family: $font-family-base;
+      font-size: $font-size-base;
+      line-height: $line-height-base;
+      font-weight: normal;
+    }
   }
 }
 

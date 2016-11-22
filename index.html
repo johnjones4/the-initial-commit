@@ -3,11 +3,11 @@ layout: default
 ---
 
 <div itemscope itemtype="http://schema.org/Blog">
-  {% for post in paginator.posts %}<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  {% for post in paginator.posts %}<article class="teaser" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <h2 itemprop="name headline author">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
     </h2>
-    {% if post.projects %}<p class="post-projects" itemprop="sourceOrganization keywords">{{ post.projects | map: 'name' | join: ', ' }}</p>{% endif %}
+    {% if post.projects %}<h3 class="post-projects" itemprop="sourceOrganization keywords">{{ post.projects | map: 'name' | join: ', ' }}</h3>{% endif %}
     <time class="post-meta" datetime="{{ post.date | date: '%Y-%m-%d %H:%M:%S %Z' }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
   </article>{% endfor %}
   <div class="btn-group">
