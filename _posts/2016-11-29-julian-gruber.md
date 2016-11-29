@@ -10,7 +10,7 @@ links:
 projects:
   - name: Level
     link: http://leveldb.org/
-  - name: Dat Project
+  - name: Dat
     link: https://datproject.org/
 ---
 
