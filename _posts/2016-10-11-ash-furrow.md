@@ -66,7 +66,7 @@ barriers: sometimes people say things on GitHub without realizing they can hurt
 feelings. My job is to let them know in a way that doesn’t hurt their feelings
 either. But it doesn’t happen often, and it’s always been resolved amicably.
 
-### What keeps you involved in those projects? Do you have long term plans for maintaining your involvement?
+### What keeps you involved in those projects? Do you have long-term plans for maintaining your involvement?
 
 My long-term plans for Moya are to popularize the style of contributor
 guidelines (invitation after your first PR). I am focused on getting as many

@@ -52,9 +52,9 @@ With dat it is a little bit different, as we’re getting paid to do this as wel
 
 Ok, I do feel like I should mention at least one bad aspect, but sorry, I can’t think of one! If you see something that can be improved, work on it :) I think that’s what we all agree and work on, so it’s a pretty good place to be in if you ask me.
 
-### What keeps you involved in those projects? Do you have long term plans for maintaining your involvement?
+### What keeps you involved in those projects? Do you have long-term plans for maintaining your involvement?
 
-I work on level because I use it in so many other projects. I work on dat because I believe in it, want to work on it, and it pays my bills. I don’t really plan out my long term involvement though, if the projects stay relevant I will continue working on them, and if not, why bother? I mean, of course, if others use a project that needs to be maintained whereas the maintainers lost interest in it already, that’s a bad situation. But, on one side, maintainers come and go as demand rises and falls, and also I’m so heavily invested in especially those two projects that I can’t see me not working on them for a long time.
+I work on level because I use it in so many other projects. I work on dat because I believe in it, want to work on it, and it pays my bills. I don’t really plan out my long-term involvement though, if the projects stay relevant I will continue working on them, and if not, why bother? I mean, of course, if others use a project that needs to be maintained whereas the maintainers lost interest in it already, that’s a bad situation. But, on one side, maintainers come and go as demand rises and falls, and also I’m so heavily invested in especially those two projects that I can’t see me not working on them for a long time.
 
 ### What is the most important thing someone submitting an issue or patch should know?
 

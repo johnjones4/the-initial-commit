@@ -81,7 +81,7 @@ things and we're only starting on the second - how do you organize these chunks
 of work into releases? It's tricky to make the parts that require opinion and
 decision-making work.
 
-### What keeps you involved in those projects? Do you have long term plans for maintaining your involvement?
+### What keeps you involved in those projects? Do you have long-term plans for maintaining your involvement?
 
 I stay involved as long as I feel like something is useful - whether to the
 larger community or to myself as a learning opportunity. When things start being

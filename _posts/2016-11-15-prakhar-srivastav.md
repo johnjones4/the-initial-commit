@@ -36,7 +36,7 @@ Different projects have evolved rather differently since I first released them. 
 
 My interactions with the community have mostly been healthy, encouraging and inspiring. Talking with fellow users and maintainers is mostly a very rewarding experience where I come out learning something new. This is inarguably my favorite part of open-source.  My least favorite part of the open-source community is that it is still hard to get started for newcomers. Many a times I've been asked by my friends on how can they start contributing and I feel that we as a community need to work harder to make sure that newcomers are not intimidated and feel welcomed.
 
-### What keeps you involved in those projects? Do you have long term plans for maintaining your involvement?
+### What keeps you involved in those projects? Do you have long-term plans for maintaining your involvement?
 
 What keeps me excited about working in these projects is seeing other people derive value from my work. Just as an entrepreneur feels awesome on seeing people use his/her product, it is very rewarding for an open-source programmer to see other projects using their library, code etc. Apart from that, as a programmer who relies on open-source all the time, I feel that I have a responsibility to give back to the community, be it in any form - be it code, library or documentation. I definitely plan to stay involved with the projects and keep working on them in any way I can.
 
