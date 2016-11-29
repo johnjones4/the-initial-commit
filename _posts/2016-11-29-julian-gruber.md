@@ -11,7 +11,7 @@ projects:
   - name: Level
     link: http://leveldb.org/
   - name: Dat Project
-    link: https://dat-data.com/
+    link: https://datproject.org/
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?
@@ -20,7 +20,7 @@ The main projects I’m currently involved in are github.com/level and github.co
 
 [Level](http://leveldb.org/) is an organisation of independent developers maintaining Node.js bindings to LevelDB - the key-value store by Google which is used in Google Chrome - and curating the ecosystem surrounding it. Really it is about a lot more than just being able to use LevelDB from Node.js. It’s about creating modular databases, something which has never been done before. Open source is perfect for this as we gain a lot from everyone being able to get involved - from all over the world - and on the other side don’t have any private information to hide.
 
-The [dat project](https://dat-data.com/) is a grant-funder non-profit organisation creating tools for governments, scientists and journalists to share and collaborate on data sets huge and small - in a secure, efficient and distributed way. Also primarily built on Node.js, we create desktop applications, websites, command line tools and just general purpose libraries all surrounding our problem space of distributed work on various forms of data. You can’t really create anything that values privacy and integrity of data without making the source freely available - how else would one be able to verify it’s not doing anything malicious? Plus we get a lot of awesome contributions from developers across the globe, like for example [Paul Frazee](https://github.com/pfrazee) and [Yoshua Wuyts](https://github.com/yoshuawuyts/).
+The [dat project](https://datproject.org/) is a grant-funder non-profit organisation creating tools for governments, scientists and journalists to share and collaborate on data sets huge and small - in a secure, efficient and distributed way. Also primarily built on Node.js, we create desktop applications, websites, command line tools and just general purpose libraries all surrounding our problem space of distributed work on various forms of data. You can’t really create anything that values privacy and integrity of data without making the source freely available - how else would one be able to verify it’s not doing anything malicious? Plus we get a lot of awesome contributions from developers across the globe, like for example [Paul Frazee](https://github.com/pfrazee) and [Yoshua Wuyts](https://github.com/yoshuawuyts/).
 
 ### If you created any of those projects, were they meant to solve a specific problem you faced, or were they born out of a larger opportunity you saw?
 
