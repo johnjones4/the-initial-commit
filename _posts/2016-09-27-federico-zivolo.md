@@ -152,7 +152,7 @@ provide a "form" that the users were required to fill. If I read an issue with
 missing parts or with the template completely ignored, I closed it without
 spending much time trying to help the guy who opened it.
 
-### What keeps you involved in those projects? Do you have long term plans for maintaining your involvement?
+### What keeps you involved in those projects? Do you have long-term plans for maintaining your involvement?
 
 I'm maintaining Bootstrap Material Design because a lot of people rely on it and
 I have some side-projects that help me buy some sushi the Saturday night. 🍣

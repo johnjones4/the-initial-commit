@@ -10,8 +10,8 @@ links:
 projects:
   - name: Level
     link: http://leveldb.org/
-  - name: Dat Project
-    link: https://dat-data.com/
+  - name: Dat
+    link: https://datproject.org/
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?
@@ -20,7 +20,7 @@ The main projects I’m currently involved in are github.com/level and github.co
 
 [Level](http://leveldb.org/) is an organisation of independent developers maintaining Node.js bindings to LevelDB - the key-value store by Google which is used in Google Chrome - and curating the ecosystem surrounding it. Really it is about a lot more than just being able to use LevelDB from Node.js. It’s about creating modular databases, something which has never been done before. Open source is perfect for this as we gain a lot from everyone being able to get involved - from all over the world - and on the other side don’t have any private information to hide.
 
-The [dat project](https://dat-data.com/) is a grant-funder non-profit organisation creating tools for governments, scientists and journalists to share and collaborate on data sets huge and small - in a secure, efficient and distributed way. Also primarily built on Node.js, we create desktop applications, websites, command line tools and just general purpose libraries all surrounding our problem space of distributed work on various forms of data. You can’t really create anything that values privacy and integrity of data without making the source freely available - how else would one be able to verify it’s not doing anything malicious? Plus we get a lot of awesome contributions from developers across the globe, like for example [Paul Frazee](https://github.com/pfrazee) and [Yoshua Wuyts](https://github.com/yoshuawuyts/).
+The [dat project](https://datproject.org/) is a grant-funder non-profit organisation creating tools for governments, scientists and journalists to share and collaborate on data sets huge and small - in a secure, efficient and distributed way. Also primarily built on Node.js, we create desktop applications, websites, command line tools and just general purpose libraries all surrounding our problem space of distributed work on various forms of data. You can’t really create anything that values privacy and integrity of data without making the source freely available - how else would one be able to verify it’s not doing anything malicious? Plus we get a lot of awesome contributions from developers across the globe, like for example [Paul Frazee](https://github.com/pfrazee) and [Yoshua Wuyts](https://github.com/yoshuawuyts/).
 
 ### If you created any of those projects, were they meant to solve a specific problem you faced, or were they born out of a larger opportunity you saw?
 
@@ -52,9 +52,9 @@ With dat it is a little bit different, as we’re getting paid to do this as wel
 
 Ok, I do feel like I should mention at least one bad aspect, but sorry, I can’t think of one! If you see something that can be improved, work on it :) I think that’s what we all agree and work on, so it’s a pretty good place to be in if you ask me.
 
-### What keeps you involved in those projects? Do you have long term plans for maintaining your involvement?
+### What keeps you involved in those projects? Do you have long-term plans for maintaining your involvement?
 
-I work on level because I use it in so many other projects. I work on dat because I believe in it, want to work on it, and it pays my bills. I don’t really plan out my long term involvement though, if the projects stay relevant I will continue working on them, and if not, why bother? I mean, of course, if others use a project that needs to be maintained whereas the maintainers lost interest in it already, that’s a bad situation. But, on one side, maintainers come and go as demand rises and falls, and also I’m so heavily invested in especially those two projects that I can’t see me not working on them for a long time.
+I work on level because I use it in so many other projects. I work on dat because I believe in it, want to work on it, and it pays my bills. I don’t really plan out my long-term involvement though, if the projects stay relevant I will continue working on them, and if not, why bother? I mean, of course, if others use a project that needs to be maintained whereas the maintainers lost interest in it already, that’s a bad situation. But, on one side, maintainers come and go as demand rises and falls, and also I’m so heavily invested in especially those two projects that I can’t see me not working on them for a long time.
 
 ### What is the most important thing someone submitting an issue or patch should know?
 

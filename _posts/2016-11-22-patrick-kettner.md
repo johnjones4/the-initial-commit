@@ -33,7 +33,7 @@ Lately, it has been nearly 100% on doing another rewrite (this time changing fro
 
 The community is generally great. It is much quieter than other similar sized projects. I think this is because it isn't something that you really program with like you would with a Babel or a Lodash. You just sort of add it and forget about it. When folks to communicate or contribute, its quite friendly. In my years with the project, there has only been a few instances or anything but happiness and pleasantries. I love how helpful and friendly folks are. The biggest negatives would be the rare occasion when someone is rude, and the guilt that happens when I don't take care of a problem quickly.
 
-### What keeps you involved in the project? Do you have long term plans for maintaining your involvement?
+### What keeps you involved in the project? Do you have long-term plans for maintaining your involvement?
 
 Knowing how impactful my work can be, and discovering deep dark problems built into web browsers. It is like being a treasure hunt!
 

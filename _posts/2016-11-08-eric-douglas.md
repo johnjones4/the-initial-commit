@@ -60,7 +60,7 @@ My favorite aspect is being able to see people helping each other in a respectfu
 
 The least favorite aspect... Well, I can't figure out something, to be honest.
 
-### What keeps you involved in those projects? Do you have long term plans for maintaining your involvement?
+### What keeps you involved in those projects? Do you have long-term plans for maintaining your involvement?
 
 I love projects related to education and I also love how many amazing resources we have **for free** in our field. I truly feel a necessity to contribute and give something back.
 

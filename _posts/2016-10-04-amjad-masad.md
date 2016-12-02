@@ -54,7 +54,7 @@ order -- with such entitlement. However, I often find a handful of passionate
 people that I enjoy working with and it's amazing how fast can things move when
 you have the right kind of team.
 
-### What keeps you involved in those projects? Do you have long term plans for maintaining your involvement?
+### What keeps you involved in those projects? Do you have long-term plans for maintaining your involvement?
 
 Building a startup is all time-consuming. I don't see myself going back to OSS
 for sometime. What kept me involved in the past is finding a job that aligns my

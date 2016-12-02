@@ -48,7 +48,7 @@ posting to forums and answering questions. But I'm happy people can now find
 help on Stackoverflow or elsewhere as that is something I don't like doing much
 anymore.
 
-### What keeps you involved in those projects? Do you have long term plans for maintaining your involvement?
+### What keeps you involved in those projects? Do you have long-term plans for maintaining your involvement?
 
 After 8 years, Thin is still the most popular Ruby web server. So I still feel
 motivated to maintain it.
