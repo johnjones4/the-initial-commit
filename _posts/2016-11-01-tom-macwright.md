@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tom MacWright"
+title: "Tom MacWright"
 description: "The projects I spend most of my time on are documentation.js, simple-statistics, and big."
 links:
   - name: www.macwright.org

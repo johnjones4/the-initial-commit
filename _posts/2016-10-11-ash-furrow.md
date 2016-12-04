@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ash Furrow"
+title: "Ash Furrow"
 description: "I maintain a number of different open source projects, the two biggest categories are Moya and RxSwiftCommunity."
 links:
   - name: ashfurrow.com

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Amjad Masad"
+title: "Amjad Masad"
 description: "Until recently, the biggest two projects my time went to was BabelJS and React Native. I didn't create those projects, however, I joined them shortly after conception."
 links:
   - name: amasad.me

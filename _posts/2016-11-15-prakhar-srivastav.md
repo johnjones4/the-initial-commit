@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Prakhar Srivastav"
+title: "Prakhar Srivastav"
 description: "I maintain a few projects of varying kinds. My earliest project was a repository of canonical data structures and algorithms implemented in Python."
 links:
   - name: prakhar.me

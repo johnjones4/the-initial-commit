@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vlad Filippov"
+title: "Vlad Filippov"
 description: "I created my GitHub account in 2009 and I would say that my open source journey had a slow start. Once I
 switched to a Mac machine my code contributions start flowing at a better pace."
 links:

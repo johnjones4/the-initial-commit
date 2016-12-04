@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Federico Zivolo"
+title: "Federico Zivolo"
 description: "Currently the main open source projects I maintain are Bootstrap Material Design (BMD) and Popper.js."
 links:
   - name: fezvrasta.github.io

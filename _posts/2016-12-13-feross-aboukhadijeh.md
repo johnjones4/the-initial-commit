@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Feross Aboukhadijeh"
+title: "Feross Aboukhadijeh"
 description: "I work on projects like Standard, WebTorrent, and Study Notes which are entirely open source."
 links:
   - name: feross.org
