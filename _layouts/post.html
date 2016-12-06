@@ -10,10 +10,16 @@ layout: default
   {% if page.image and page.hide_image != true %}<img src="/img/posts/{{ page.image }}" class="post-image img-responsive" />{% endif %}
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-    {% if page.links %}<h3>Learn More:</h3>
+    {% if page.links %}<h3>More About {{ page.title }}:</h3>
     <div class="btn-group">
       {% for link in page.links %}
         <a class="btn btn-default btn-sm" target="_blank" href="{{ link.url }}">{{ link.name }}</a>
+      {% endfor %}
+    </div>{% endif %}
+    {% if page.projects %}<h3>{{ page.title }}'s Projects:</h3>
+    <div class="btn-group">
+      {% for project in page.projects %}
+        <a class="btn btn-default btn-sm" target="_blank" href="{{ project.link }}">{{ project.name }}</a>
       {% endfor %}
     </div>{% endif %}
   </div>
