@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Marc-André Cournoyer"
+title: "Marc-André Cournoyer"
 description: "My most popular project is Thin, a Ruby web server."
 links:
   - name: macournoyer.com

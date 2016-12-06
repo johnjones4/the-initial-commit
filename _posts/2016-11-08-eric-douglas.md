@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Eric Douglas"
+title: "Eric Douglas"
 description: "The biggest project that I created and I am maintaining right now is the OSSU-CS (Open Source Society University - Computer Science)"
 links:
   - name: ericdouglas.github.io

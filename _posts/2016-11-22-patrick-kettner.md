@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Patrick Kettner"
+title: "Patrick Kettner"
 description: "The most popular project I maintain is Modernizr. I actually did not create it, Faruk Ateş did."
 image: "patrickkettner.jpg"
 hide_image: true

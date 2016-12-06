@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Julian Gruber"
+title: "Julian Gruber"
 description: "The main projects I’m currently involved in are github.com/level and github.com/datproject."
 links:
   - name: github.com/juliangruber

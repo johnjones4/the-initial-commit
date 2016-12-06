@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is This?"
+title: "What is This?"
 description: "Virtually all developers rely on open source software as part of their daily lives."
 ---
 
