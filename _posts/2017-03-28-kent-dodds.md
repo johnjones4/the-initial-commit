@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kent C. Dodds"
-description: "I have a lot of projects I maintain. Many of them are "finished" and not actively maintained (because no maintenance is needed)"
+description: "I have a lot of projects I maintain. Many of them are finished and not actively maintained (because no maintenance is needed)"
 links:
   - name: github.com/kentcdodds
     url: https://github.com/kentcdodds
