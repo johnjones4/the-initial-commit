@@ -2,6 +2,7 @@
 layout: post
 title: "Andreas Mueller"
 description: "By far the biggest project I work on is scikit-learn, for which I am something like co-maintainer."
+image: "amueller.jpeg"
 links:
   - name: github.com/amueller
     url: https://github.com/amueller
