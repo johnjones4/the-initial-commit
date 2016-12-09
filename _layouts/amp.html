@@ -55,7 +55,7 @@
       <h1>{{ page.title }}</h1>
       {% if page.projects %}<p class="post-projects">{% include projects.html %}</p>{% endif %}
       <time class="post-meta" datetime="{{ page.date | date: '%Y-%m-%d %H:%M:%S %Z' }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-      {% if page.image %}<amp-img src="{{ site.url }}/img/og/posts/{{ page.image }}" width="1200" height="630" layout="responsive"></amp-img>{% endif %}
+      {% if page.image %}<amp-img src="{{ site.url }}/img/og/posts/resized/{{ page.image }}" width="1200" height="630" layout="responsive"></amp-img>{% endif %}
       <div class="post-content" itemprop="articleBody">
         {{ page.body | markdownify | amp_images }}
         {% if page.links %}<h3>Learn More:</h3>

@@ -7,7 +7,7 @@ layout: default
   {% if page.projects %}<h2 class="post-projects" itemprop="sourceOrganization keywords">{% include projects.html %}</h2>{% endif %}
   <time class="post-meta" datetime="{{ page.date | date: '%Y-%m-%d %H:%M:%S %Z' }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
   <div class="addthis_inline_share_toolbox"></div>
-  {% if page.image and page.hide_image != true %}<img src="/img/posts/{{ page.image }}" class="post-image img-responsive" />{% endif %}
+  {% if page.image and page.hide_image != true %}<img src="/img/posts/resized/{{ page.image }}" class="post-image img-responsive" />{% endif %}
   <div class="post-content" itemprop="articleBody">
     {{ content }}
     {% if page.links %}<h3>More About {{ page.title }}:</h3>

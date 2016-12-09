@@ -2,6 +2,7 @@
 layout: post
 title: "Daniel Doubrovkine"
 description: "I mostly get involved in projects by scratching my own itch."
+image: "dblock.jpg"
 links:
   - name: code.dblock.org
     url: http://code.dblock.org/

@@ -2,6 +2,7 @@
 layout: post
 title: "Mathias Bynens"
 description: "Back in 2010, there was no easy way to reliably measure the performance of two or more pieces of JavaScript code, let alone compare those results across browsers."
+image: "mathiasbynens.jpg"
 links:
   - name: mathiasbynens.be
     url: https://mathiasbynens.be

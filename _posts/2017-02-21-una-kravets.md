@@ -2,6 +2,7 @@
 layout: post
 title: "Una Kravets"
 description: "I maintain a few small projects here and there, including youmightnotneedjs.com, and SVG icon system, and a gulp starter environment, but my most popular project is called CSSgram—a CSS library recreating Instagram filters."
+image: "una.jpg"
 links:
   - name: una.im
     url: https://una.im/

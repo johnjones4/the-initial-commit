@@ -2,6 +2,7 @@
 layout: post
 title: "Matteo Collina"
 description: "I maintain more than 200 open source modules on NPM, plus I am a collaborator on Node.js itself in the streams working group."
+image: "matteo.jpg"
 links:
   - name: github.com/mcollina
     url: https://github.com/mcollina

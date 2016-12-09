@@ -21,6 +21,10 @@ twitter_image: "img/twitter.png"
 ampdir: amp
 
 mini_magick:
+  post:
+    source: img/posts
+    destination: img/posts/resized
+    resize: "1600"
   og:
     source: img/posts
     destination: img/og/posts
