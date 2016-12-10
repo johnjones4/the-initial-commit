@@ -2,6 +2,7 @@
 layout: post
 title: "Daniel Stenberg"
 description: "My primary project is curl."
+image: danielstenberg.jpg
 links:
   - name: daniel.haxx.se
     url: https://daniel.haxx.se

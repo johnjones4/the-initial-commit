@@ -2,6 +2,7 @@
 layout: post
 title: "James Montemagno"
 description: "I maintain around sixty open source projects, so it would take a while to name them all!"
+image: jamesmontemagno.jpg
 links:
   - name: motzcod.es
     url: http://motzcod.es/
