@@ -41,7 +41,7 @@ layout: null
                 </header>
                 {{ post.content | replace: '<h3', '<h2' | replace: '</h3>', '</h2>' }}
                 <footer>
-                  <aside>This is a project by <a href="https://johnjonesfour.com" target="_blank">John Jones</a>.</aside>
+                  <aside><a href="{{ site.url }}/about">Learn more about this project</a>.</aside>
                 </footer>
               </article>
             </body>
