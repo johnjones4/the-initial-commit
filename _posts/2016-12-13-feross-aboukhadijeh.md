@@ -2,6 +2,7 @@
 layout: post
 title: "Feross Aboukhadijeh"
 description: "I work on projects like Standard, WebTorrent, and Study Notes which are entirely open source."
+image: feross-stanford.jpg
 links:
   - name: feross.org
     url: http://feross.org/
