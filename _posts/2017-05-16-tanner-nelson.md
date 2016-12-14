@@ -16,13 +16,13 @@ projects:
 
 I maintain the [Vapor web framework](https://vapor.codes) for Swift which consists of dozens of Swift 3, Linux compatible packages for creating web services. These packages comprise things like HTTP parsers, WebSocket servers, database connectors, etc.
 
-![Vapor Website](https://cloud.githubusercontent.com/assets/1342803/21065187/ef1d94ae-be2c-11e6-9f96-8bf5de2d33c3.png)
+![Vapor Website](https://cloud.githubusercontent.com/assets/1342803/21065187/ef1d94ae-be2c-11e6-9f96-8bf5de2d33c3.png){: .img-responsive }
 
 I am also an initial stakeholder of the [Swift Server APIs](https://swift.org/server-apis/) workgroup whose job is building a consistent set of HTTP, networking, and security components into Swift itself.
 
 The motivation behind creating Vapor was simple: I love Swift. Back in January when I created it, I had just finished a long Swift/C++ project using Metal for iOS called [Falling Sand](https://itunes.apple.com/us/app/falling-sand/id1044306700?mt=8). I was looking for a new project to spend my free time on, and my idea behind Vapor was the perfect fit.
 
-![First Commit](https://cloud.githubusercontent.com/assets/1342803/21065148/ba0a65f8-be2c-11e6-8434-174956808959.png)
+![First Commit](https://cloud.githubusercontent.com/assets/1342803/21065148/ba0a65f8-be2c-11e6-8434-174956808959.png){: .img-responsive }
 
 As for releasing it open source, the reasoning is two fold. First, GitHub is an amazing service and I like using it. They give you unlimited open source repositories for free and the tools there make collaborating with people easy and dare I say fun. Also, it doesn't hurt that open source projects are the perfect complement to a software engineer's resume. Second (and most importantly) good web frameworks are open source. That's just the way it is. Take a look at the "[hot frameworks](http://hotframeworks.com)" out there and you'll see that virtually all of them are open source.
 
@@ -34,7 +34,7 @@ Vapor was ultimately the result of being in the right place at the right time. B
 
 2: Swift had just gone open source in December 2015. And, more importantly, Apple had released beta compilers for Ubuntu. This meant that Swift could now run on a majority of the computers that power the internet.
 
-![Swift Open Source](https://cloud.githubusercontent.com/assets/1342803/21065245/39a66ca8-be2d-11e6-84e7-b69312594b15.jpg)
+![Swift Open Source](https://cloud.githubusercontent.com/assets/1342803/21065245/39a66ca8-be2d-11e6-84e7-b69312594b15.jpg){: .img-responsive }
 
 3: As mentioned previously, I was looking for something to do!
 
@@ -46,7 +46,7 @@ The project has evolved tremendously since that first commit. Really the only th
 
 The most amazing evolution has been the growth in the community. Vapor has risen to be one of the top 20 most popular Swift projects on GitHub and the team of people in our [Slack group](http://vapor.team) is about to welcome its 2,000th member.
 
-![Slack 2k](https://cloud.githubusercontent.com/assets/1342803/21122130/620662b6-c09e-11e6-9d65-26c9a8309394.png)
+![Slack 2k](https://cloud.githubusercontent.com/assets/1342803/21122130/620662b6-c09e-11e6-9d65-26c9a8309394.png){: .img-responsive }
 
 Vapor has grown from a pet project, to the #1 trending repository on GitHub, to a real set of tools that people are using right now to create web services.
 
@@ -58,7 +58,7 @@ As Vapor has evolved, so has the role that I play. Initially I worked on the pro
 
 After only a couple of weeks, though, things started getting more serious. The article on Hackernews was one of the biggest milestones. It led to over 2,000 stars on the GitHub repository in a matter of hours. I can still clearly remember waking up Sunday morning to my coworker calling me: "Vapor is #1 on Hackernews right now!"
 
-![Hackernews](https://cloud.githubusercontent.com/assets/1342803/21065520/c040dad6-be2e-11e6-9dac-0c8fe7b6665f.png)
+![Hackernews](https://cloud.githubusercontent.com/assets/1342803/21065520/c040dad6-be2e-11e6-9dac-0c8fe7b6665f.png){: .img-responsive }
 
 
 Shortly after that day, Vapor received an incredibly generous sponsorship from a Danish app development company, [Nodes](https://www.nodesagency.com). This allowed myself and one of the other top contributors to the project to [quit our jobs](https://medium.com/@qutheory/vapor-just-got-real-41ecae7aa9e8#.dhxyt3svv) and go full time on Vapor.
@@ -85,7 +85,7 @@ In theory, this should be easy for anyone who's good with a computer. We've all 
 
 In reality, we're left wondering where to begin. Maybe they can't find the camera app icon, maybe iCloud is not enabled. Probably iCloud is not enabled. Then after a few wasted minutes making sure all the settings on their phone are correct (and considering crazier things that could be wrong) you figure out the real problem is they wish their pictures were less blurry.
 
-![Blurry photo of my cat](https://cloud.githubusercontent.com/assets/1342803/21065568/00aecdf8-be2f-11e6-92ed-4ea1154f1f6e.png)
+![Blurry photo of my cat](https://cloud.githubusercontent.com/assets/1342803/21065568/00aecdf8-be2f-11e6-92ed-4ea1154f1f6e.png){: .img-responsive }
 
 
 It's the same problem on GitHub. And, unfortunately, with the amount of traffic large projects see, it's really not practical to spend time trying to figure out what someone meant.
@@ -96,7 +96,7 @@ Submitting detailed issues or feature requests (even adding detail to vague ones
 
 I use Xcode primarily and sometimes Sublime Text or VIM if I need to make mass edits or work on a remote server. Also, the [Material Theme](https://github.com/equinusocio/material-theme) for Sublime Text is beautiful if you haven't tried it.
 
-![Sublime Text](https://cloud.githubusercontent.com/assets/1342803/21065598/2de1dfae-be2f-11e6-8454-f05b8db03456.png)
+![Sublime Text](https://cloud.githubusercontent.com/assets/1342803/21065598/2de1dfae-be2f-11e6-8454-f05b8db03456.png){: .img-responsive }
 
 
 In terms of the hardware, I created a Hackintosh the for the first time ever this year. It was really fun and I'd recommend it for anyone who likes tinkering.
