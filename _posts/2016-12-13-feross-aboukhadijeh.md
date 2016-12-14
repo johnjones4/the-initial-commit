@@ -47,7 +47,7 @@ solve a specific need that I had at a very specific point in time.
 While working on WebTorrent, I kept getting useful code contributions that had
 minor style or functionality issues, e.g. not matching the existing code style,
 forgetting to handle errors, or creating paths in a way that doesn't work
-cross-platform ("/" vs. "\"). Whenever this happens, a maintainer can do one of
+cross-platform ("/" vs. "\\"). Whenever this happens, a maintainer can do one of
 two things: 1) provide feedback and hope that it gets fixed (anecdotally 50% of
 the time, it doesn't because the contributor is too busy, or just goes silent)
 or 2) accept the code, but immediately make a followup commit to fix the
