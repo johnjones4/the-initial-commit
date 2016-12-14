@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Kent C. Dodds"
+seo_title: "An Interview With Kent Dodds On Open Source Software"
 description: "I have a lot of projects I maintain. Many of them are finished and not actively maintained (because no maintenance is needed)"
 links:
   - name: github.com/kentcdodds
@@ -30,6 +31,7 @@ projects:
     link: https://github.com/kentcdodds/npm-kentcdodds
   - name: stack-overflow-copy-paste
     link: https://github.com/eggheadio-github/stack-overflow-copy-paste
+tags: ["angular", "webpack", "javascript"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

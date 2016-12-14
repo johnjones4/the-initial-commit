@@ -2,6 +2,7 @@
 layout: post
 title: "Mathias Bynens"
 description: "Back in 2010, there was no easy way to reliably measure the performance of two or more pieces of JavaScript code, let alone compare those results across browsers."
+seo_title: "An Interview With jsPerf's Mathias Bynens"
 image: "mathiasbynens.jpg"
 links:
   - name: mathiasbynens.be
@@ -15,6 +16,7 @@ projects:
     link: https://benchmarkjs.com/
   - name: HTML5 Boilerplate
     link: https://html5boilerplate.com/
+tags: ["html5", "javascript"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

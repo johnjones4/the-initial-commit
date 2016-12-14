@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Federico Mena Quintero"
+seo_title: "An Interview With Gnome's Federico Mena Quintero"
 description: "Currently I only maintain librsvg, a small library to render SVG files - GNOME uses it to render icons in applications, for example, and Wikimedia uses it for the scalable diagrams in Wikipedia pages."
 links:
   - name: github.com/federicomenaquintero
@@ -10,6 +11,7 @@ links:
 projects:
   - name: librsvg
     link: https://wiki.gnome.org/action/show/Projects/LibRsvg?action=show&redirect=LibRsvg
+tags: ["gnome"]
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Armon Dadgar"
+seo_title: "An Interview with HashiCorp's Armon Dadgar"
 description: "About four years ago I co-founded HashiCorp with Mitchell Hashimoto."
 links:
   - name: github.com/armon
@@ -18,6 +19,7 @@ projects:
     link: https://www.vaultproject.io/
   - name: Nomad
     link: https://www.nomadproject.io/
+tags: ["devops"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

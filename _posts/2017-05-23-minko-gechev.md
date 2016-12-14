@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Minko Gechev"
+seo_title: "An Interview With Minko Gechev"
 description: "I maintain quite a few projects at the moment; two of them which got quite popular recently are angular-seed and codelyzer."
 links:
   - name: github.com/mgechev
@@ -12,6 +13,7 @@ projects:
     link: https://github.com/mgechev/angular-seed
   - name: codelyzer
     link: https://github.com/mgechev/codelyzer
+tags: ["angular", "javascript"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

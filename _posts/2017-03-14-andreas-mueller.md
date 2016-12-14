@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Andreas Mueller"
+seo_title: "An Interview with Scikit-Learn's Andreas Mueller"
 description: "By far the biggest project I work on is scikit-learn, for which I am something like co-maintainer."
 image: "amueller.jpeg"
 links:
@@ -15,6 +16,7 @@ projects:
     link: https://github.com/amueller/pystruct
   - name: word_cloud
     link: https://github.com/amueller/word_cloud
+tags: ["python"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

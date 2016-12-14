@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Dominic Tarr"
+seo_title: "An Interview With Secure-Scuttlebutt's Dominic Tarr"
 description: "My main project is currently is secure-scuttlebutt. It's a decentralized database that maps to social media applications."
 links:
   - name: github.com/dominictarr
@@ -8,6 +9,7 @@ links:
 projects:
   - name: Secure-Scuttlebutt
     link: https://ssbc.github.io/secure-scuttlebutt/
+tags: ["database", "javascript"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

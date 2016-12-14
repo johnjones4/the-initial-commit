@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Matteo Collina"
+seo_title: "An Interview With Node.js's Matteo Collina"
 description: "I maintain more than 200 open source modules on NPM, plus I am a collaborator on Node.js itself in the streams working group."
 image: "matteo.jpg"
 links:
@@ -9,6 +10,8 @@ links:
   - name: www.matteocollina.com
     url: http://www.matteocollina.com/
 projects:
+  - name: Node.js
+    link: http://nodejs.org
   - name: Split2
     link: http://npm.im/split2
   - name: Cloneable-Readable
@@ -21,6 +24,7 @@ projects:
     link: https://www.npmjs.com/package/upring
   - name: pino
     link: https://github.com/pinojs/pino
+tags: ["node", "javascript"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

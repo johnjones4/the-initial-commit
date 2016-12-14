@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Matt DesLauriers"
+seo_title: "An Interview With Budo's Matt DesLauriers"
 description: "I write and maintain lots of open source, with over 500 modules on npm."
 links:
   - name: github.com/mattdesl
@@ -8,6 +9,7 @@ links:
 projects:
   - name: budo
     link: https://github.com/mattdesl/budo
+tags: ["node", "javascript"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tanner Nelson"
+seo_title: "An Interview With Vapor's Tanner Nelson"
 description: "I maintain the Vapor web framework for Swift which consists of dozens of Swift 3, Linux compatible packages for creating web services."
 links:
   - name: github.com/tannernelson
@@ -10,6 +11,7 @@ links:
 projects:
   - name: Vapopr
     link: https://vapor.codes
+tags: ["swift"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

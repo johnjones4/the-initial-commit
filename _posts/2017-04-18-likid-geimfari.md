@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Likid Geimfari"
+seo_title: "An Interview With Likid Geimfari"
 description: "The main projects I’m currently involved in are and expynent."
 links:
   - name: github.com/lk-geimfari
@@ -10,6 +11,7 @@ projects:
     link: https://github.com/lk-geimfari/elizabeth
   - name: expynent
     link: https://github.com/lk-geimfari/expynent
+tags: ["python"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

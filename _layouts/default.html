@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>{% if page.seo_title %}{{ page.seo_title}} | {% else if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     {% include global/device_meta.html %}
     {% include global/seo.html %}
     {% include global/header_includes.html %}

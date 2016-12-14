@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "James Reeves"
+seo_title: "An Interview Ring's With James Reeves"
 description: "I maintain around sixty open source projects, so it would take a while to name them all!"
 links:
   - name: booleanknot.com
@@ -12,6 +13,7 @@ projects:
     link: https://github.com/ring-clojure/ring
   - name: Compojure
     link: https://github.com/weavejester/compojure
+tags: ["clojure"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

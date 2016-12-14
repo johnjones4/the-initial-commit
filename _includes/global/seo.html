@@ -1,4 +1,4 @@
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:title" content="{% if page.seo_title %}{{ page.seo_title}}{% else if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
@@ -7,7 +7,7 @@
 <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" name="description" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="{{ site.twitter_handle }}" />
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta name="twitter:title" content="{% if page.seo_title %}{{ page.seo_title}}{% else if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 <meta name="twitter:image" content="{{ site.url }}/{% if page.image %}img/twitter/posts/{{ page.image }}{% else %}{{ site.twitter_image }}{% endif %}" />
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />

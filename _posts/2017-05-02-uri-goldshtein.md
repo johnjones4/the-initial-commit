@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Uri Goldshtein"
+seo_title: "An Interview With Angular's Uri Goldshtein"
 description: "I was an Angular developer from very early on and really believed in that framework and the team behind it."
 links:
   - name: github.com/Urigo
@@ -12,6 +13,7 @@ projects:
     link: http://dev.apollodata.com/angular2/
   - name: Meteor-rxjs
     link: https://github.com/Urigo/meteor-rxjs
+tags: ["angular", "meteor", "javascript"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

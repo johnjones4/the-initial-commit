@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Victor Felder"
+seo_title: "An Interview With Victor Felder On Open Source Software"
 description: "My open source involvement is split between two types of projects: serious projects and pet projects."
 links:
   - name: draft.li/blog
@@ -20,6 +21,7 @@ projects:
     link: https://babeljs.io/
   - name: Confusable Homoglyphs
     link: https://github.com/vhf/confusable_homoglyphs
+tags: ["javascript"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

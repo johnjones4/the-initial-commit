@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Parker Moore"
+seo_title: "An Interview with Jekyll's Parker Moore"
 description: "Back in 2008, Tom Preston-Werner wanted a better way to publish a blog and documentation for GitHub projects."
 links:
   - name: github.com/parkr
@@ -12,6 +13,7 @@ projects:
     link: https://jekyllrb.com/
   - name: Octopress
     link: http://octopress.org/
+tags: ["jekyll"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

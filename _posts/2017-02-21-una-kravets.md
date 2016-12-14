@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Una Kravets"
+seo_title: "An Interview With Una Kravets of youmightnotneedjs.com"
 description: "I maintain a few small projects here and there, including youmightnotneedjs.com, and SVG icon system, and a gulp starter environment, but my most popular project is called CSSgram—a CSS library recreating Instagram filters."
 image: "una.jpg"
 links:
@@ -17,6 +18,7 @@ projects:
     link: https://github.com/una/gulp-starter-env
   - name: CSSgram
     link: http://una.im/CSSgram/
+tags: ["css", "gulp", "javascript"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

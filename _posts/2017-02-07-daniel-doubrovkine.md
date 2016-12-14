@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Daniel Doubrovkine"
+seo_title: "An Interview with Artsy's Daniel Doubrovkine"
 description: "I mostly get involved in projects by scratching my own itch."
 image: "dblock.jpg"
 links:
@@ -25,6 +26,7 @@ projects:
     link: https://github.com/oshi/oshi
   - name: Artsy
     link: https://github.com/artsy
+tags: ["ruby"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?

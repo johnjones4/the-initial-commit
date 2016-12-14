@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Daniel Stenberg"
+seo_title: "An Interview With cURL's Daniel Stenberg"
 description: "My primary project is curl."
 image: danielstenberg.jpg
 links:
@@ -15,6 +16,7 @@ projects:
     link: https://c-ares.haxx.se/
   - name: libssh2
     link: https://www.libssh2.org/
+tags: ["curl"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?
