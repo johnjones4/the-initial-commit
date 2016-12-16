@@ -19,9 +19,7 @@ tags: ["python"]
 The main projects I’m currently involved in are [elizabeth](https://github.com/lk-geimfari/elizabeth)
 and [expynent](https://github.com/lk-geimfari/expynent).
 
-[elizabeth](https://github.com/lk-geimfari/elizabeth) is a library to generate dummy data.
-It's can be helpful when you really need to bootstrap your database while testing.
-I create Elizabeth when i worked on some Flask project.
+[Elizabeth](https://github.com/lk-geimfari/elizabeth)  is a fast and easier to use Python library for generating dummy data. These data are very useful when you need to bootstrap the database in the testing phase of your software. A great example of how you can use the library are web applications on Flask or Django which need a data, such as users (email, username, name, surname etc.), posts (tags, text, title, publishing date and etc.) and so forth. The library uses the JSON files as a datastore and doesn’t have any dependencies. The library offers more than 18 different data providers (from personal ones to transport and more).
 
 [expynent](https://github.com/lk-geimfari/expynent) is a very small library that provides commonly used regular expression patterns, as the patterns for IPv4, username, datetime and etc. I hate to write regex, so I wrote this library. Expynent can be useful in testing.
 
