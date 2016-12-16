@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vladimir Agafonkin"
+image: "vladimiragafonkin.png"
 seo_title: "An Interview With Leaflet Creator Vladimir Agafonkin"
 description: "The project I am most known for is Leaflet, an open source library for interactive maps."
 links:
