@@ -113,7 +113,7 @@ longer relevant.
 Search the README, docs, and issue tracker before filing a new ticket or
 submitting a patch. When filing a bug, include a minimal test case that
 reproduces the problem. Follow the existing coding style. Err on the side of
-over communication.
+over-communication.
 
 ### What’s your development environment right now?
 
