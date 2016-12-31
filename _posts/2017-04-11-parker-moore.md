@@ -2,6 +2,8 @@
 layout: post
 title: "Parker Moore"
 seo_title: "An Interview with Jekyll's Parker Moore"
+image: parkermoore.jpg
+caption: "In the VSCO office in Oakland, by <a href=\"https://vsco.co/jgenden\" target=\"_blank\">Joe Genden</a>"
 description: "Back in 2008, Tom Preston-Werner wanted a better way to publish a blog and documentation for GitHub projects."
 links:
   - name: github.com/parkr

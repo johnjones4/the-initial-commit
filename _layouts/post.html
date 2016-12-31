@@ -8,6 +8,7 @@ layout: default
   <time class="post-meta" datetime="{{ page.date | date: '%Y-%m-%d %H:%M:%S %Z' }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
   <div class="addthis_inline_share_toolbox"></div>
   {% if page.image and page.hide_image != true %}<img src="/img/posts/resized/{{ page.image }}" class="post-image img-responsive" />{% endif %}
+  {% if page.caption and page.hide_image != true %}<p class="text-muted">{{ page.caption }}</p>{% endif %}
   <div class="post-content" itemprop="articleBody">
     {{ content }}
     {% if page.links %}<h3>More About {{ page.title }}:</h3>
