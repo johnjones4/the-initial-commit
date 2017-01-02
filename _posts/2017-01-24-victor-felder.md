@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Victor Felder"
+image: victorfelder.jpg
 seo_title: "An Interview With Victor Felder On Open Source Software"
 description: "My open source involvement is split between two types of projects: serious projects and pet projects."
 links:

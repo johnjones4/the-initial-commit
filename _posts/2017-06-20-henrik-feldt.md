@@ -21,7 +21,7 @@ projects:
     link: https://github.com/haf/Http.fs
   - name: semver
     link: https://github.com/haf/semver
-tags: [".NET", "F#", ]
+tags: [".NET", "F#"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?
