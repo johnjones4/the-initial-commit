@@ -3,6 +3,7 @@ layout: post
 title: "Amjith Ramanujam"
 seo_title: "An Interview With PGCLI and MYCLI Creator Amjith Ramanujam"
 description: "I'm the creator of two projects pgcli and mycli"
+image: amjith.jpg
 links:
   - name: github.com/amjith
     url: https://github.com/amjith
