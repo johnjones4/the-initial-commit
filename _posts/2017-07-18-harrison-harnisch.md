@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Harrison Harnisch"
+image: harrisonharnish.jpg
 seo_title: "An Interview With Buffer's Harrison Harnisch"
 description: "An Interview With Buffer's Harrison Harnisch"
 links:

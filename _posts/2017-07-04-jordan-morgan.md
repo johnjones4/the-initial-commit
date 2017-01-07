@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jordan Morgan"
+image: jordanmorgan.jpg
 seo_title: "An Interview With Buffer's Jordan Morgan"
 description: "Currently, myself and Andy maintain three main iOS projects used in Buffer."
 links:
