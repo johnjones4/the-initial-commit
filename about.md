@@ -29,12 +29,12 @@ please get in touch at [by contacting us](/contact).
 #### John Jones
 
 [John Jones](https://johnjonesfour.com/) started \_theInitialCommit in September
-of 2016. John is currently the Director of Technology at Adfero, a strategic
-communications firm located in downtown Washington D.C. Through both his work at
-Adfero and on projects such as this, John has a passion for leveraging
-technology in meaningful, robust ways. While not a prominent open source
-contributor, John understands the incredible value created by the open source
-community thanks to the hard work and dedication of many. Follow him on Twitter
+of 2016. John is the Vice President of the Case Foundation located in downtown
+Washington D.C. Through both his work at the Case Foundation and on projects
+such as this, John has a passion for leveraging technology in meaningful, robust
+ways. While not a prominent open source contributor, John understands the
+incredible value created by the open source community thanks to the hard work
+and dedication of many. Follow him on Twitter
 [@johnjones4](https://twitter.com/johnjones4).
 
 #### Maddison Long
