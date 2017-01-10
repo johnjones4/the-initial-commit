@@ -2,6 +2,7 @@
 layout: post
 title: "Jason Wolfe"
 seo_title: "An Interview With Clojure Developer Jason Wolfe"
+image: jasonwolfe.jpg
 description: "I'm the primary author and maintainer of several open-source Clojure projects, including schema, plumbing & graph, fnhouse, hiphip."
 links:
   - name: github.com/w01fe
