@@ -2,7 +2,7 @@
 layout: post
 title: "Siddharth Bhat"
 seo_title: "An Interview With Siddharth Bhat"
-description: "The last thing I released was teleport, which was a CLI app written specifically to teach how to build "useful" things in Haskell."
+description: "The last thing I released was teleport, which was a CLI app written specifically to teach how to build \"useful\" things in Haskell."
 links:
   - name: github.com/bollu
     url: https://github.com/bollu
