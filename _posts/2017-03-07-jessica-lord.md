@@ -2,6 +2,7 @@
 layout: post
 title: "Jessica Lord"
 description: "All of my personal work is open source, but the main one that I actively (try to) keep up and is used by some people are Git-it and its related repos."
+seo_title: "An Interview With Electron Creator Jessica Lord"
 links:
   - name: jlord.us
     url: http://jlord.us/
@@ -12,6 +13,7 @@ projects:
     link: https://github.com/jlord/git-it-electron
   - name: Sheetsee.js
     link: https://github.com/jlord/sheetsee.js
+tags: ["javascript"]
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?
