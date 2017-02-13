@@ -3,6 +3,7 @@ layout: post
 title: "Dominic Tarr"
 seo_title: "An Interview With Secure-Scuttlebutt's Dominic Tarr"
 description: "My main project is currently is secure-scuttlebutt. It's a decentralized database that maps to social media applications."
+image: tarr.jpg
 links:
   - name: github.com/dominictarr
     url: https://github.com/dominictarr
