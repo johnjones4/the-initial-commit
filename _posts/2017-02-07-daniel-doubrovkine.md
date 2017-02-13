@@ -35,7 +35,7 @@ I mostly get involved in projects by scratching my own itch. I'm an active maint
 
 ### If you created any of those projects, were they meant to solve a specific problem you faced, or were they born out of a larger opportunity you saw?
 
-Most of my open-source work started very small and solved bite-sized problems. I recently picked up Scala as I wanted to learn and contribute to an existing live auctions bidding service. (This is a complex machine that powers [Artsy Auctions](http://artsy.net/auctions), and works with auction houses such as Sotheby's or Phillips.) Going through project issues I noticed a ticket to add code coverage, which seemed like a good place to start. I had to figure out how to enable sbt-scoverage, and then how to publish code coverage artifacts inside Circle-CI. Both being fairly non-trivial I ended up making [two documentation PRs](https://github.com/circleci/circleci-docs/pulls?q=is%3Apr+author%3Adblock+is%3Aclosed).
+Most of my open-source work started very small and solved bite-sized problems. I recently picked up Scala as I wanted to learn and contribute to an existing live auctions bidding service. (This is a complex machine that powers [Artsy Auctions](http://artsy.net/auctions), and works with auction houses such as Phillips and Heritage.) Going through project issues I noticed a ticket to add code coverage, which seemed like a good place to start. I had to figure out how to enable sbt-scoverage, and then how to publish code coverage artifacts inside Circle-CI. Both being fairly non-trivial I ended up making [two documentation PRs](https://github.com/circleci/circleci-docs/pulls?q=is%3Apr+author%3Adblock+is%3Aclosed).
 
 ### How has the project evolved since you first got involved or first released it?
 
