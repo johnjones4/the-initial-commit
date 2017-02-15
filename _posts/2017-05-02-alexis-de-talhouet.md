@@ -1,8 +1,16 @@
 ---
 layout: post
 title: "Alexis de Talhouët"
-seo_title: "An Interview With OpenDaylight Contributor Alexis de Talhouët"
+seo_title: "An Interview With OpenDaylight's Alexis de Talhouët"
 description: "I work mostly on the OpenDaylight project, maintaining many sub-projects it has, with a high amount of focus on the core projects."
+links:
+  - name: github.com/adetalhouet
+    url: https://github.com/adetalhouet
+  - name: www.adetalhouet.com
+    url: http://www.adetalhouet.com/
+projects:
+  - name: OpenDaylight
+    link: https://www.opendaylight.org/
 ---
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?
