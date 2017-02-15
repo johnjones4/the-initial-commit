@@ -3,6 +3,7 @@ layout: post
 title: "Henrik Feldt"
 seo_title: "An Interview With Suave Co-Creator Henrik Feldt"
 description: "Most of these projects are tooling to use to build services. Customers mostly pay for services; not dev tools. Thus, I think it's a question of efficiencies."
+image: henrik.jpeg
 links:
   - name: github.com/haf
     url: https://github.com/haf
