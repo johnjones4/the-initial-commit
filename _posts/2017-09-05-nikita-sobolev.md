@@ -3,6 +3,7 @@ layout: post
 title: "Nikita Sobolev"
 seo_title: "An Interview With Nikita Sobolev"
 description: "I maintain two types of projects: tools which I needed at some point and projects aimed at the community."
+image: sobolevnikita.jpeg
 links:
   - name: github.com/sobolevn
     url: https://github.com/sobolevn
