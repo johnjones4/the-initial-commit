@@ -3,7 +3,7 @@ layout: post
 title: "Jessica Lord"
 description: "All of my personal work is open source, but the main one that I actively (try to) keep up and is used by some people are Git-it and its related repos."
 image: "jlord.jpg"
-seo_title: "An Interview With Electron Creator Jessica Lord"
+seo_title: "An Interview With Electron Contributor Jessica Lord"
 links:
   - name: jlord.us
     url: http://jlord.us/
