@@ -2,6 +2,7 @@
 layout: post
 title: "Ruslan Talpa"
 seo_title: "An Interview With Ruslan Talpa"
+image: ruslantalpa.jpg
 description: "At the moment I am involved in PostgREST which is a standalone web server that turns your PostgreSQL database directly into a RESTful API."
 links:
   - name: github.com/sobolevn
