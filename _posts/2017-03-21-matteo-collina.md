@@ -31,13 +31,13 @@ tags: ["node", "javascript"]
 
 I maintain more than 200 open source modules on NPM, plus I am a collaborator on
 Node.js itself in the streams working group. My OSS modules range from highly
-downloaded utilities like http://npm.im/split2 and
-https://www.npmjs.com/package/cloneable-readable to protocol libraries like
-https://www.npmjs.com/package/mqtt or https://www.npmjs.com/package/mosca. I
-recently developed https://www.npmjs.com/package/upring.  
+downloaded utilities like [split2](http://npm.im/split2) and
+[cloneable-readable](https://www.npmjs.com/package/cloneable-readable) to protocol libraries like
+[mqtt](https://www.npmjs.com/package/mqtt) or [mosca](https://www.npmjs.com/package/mosca). I
+recently developed [upring](https://www.npmjs.com/package/upring).  
 At the beginning of this year, my colleague David Mark Clements and myself wrote
-Pino, the fastest logger for Node.js (https://github.com/pinojs/pino). You can
-see the full list at https://www.npmjs.com/~matteo.collina.
+Pino, the fastest logger for Node.js ([pino](https://github.com/pinojs/pino)). You can
+see the full list at [~matteo.collina](https://www.npmjs.com/~matteo.collina).
 
 I create some of those because either myself, a colleague or a client (I am with
 nearForm, a consulting firm in the OSS space) needed them.  
@@ -50,7 +50,7 @@ MQTT.js because Adam did not want to be involved. I develop a lot of “small
 modules”, little things I can reuse across modules.
 
 We developed Pino because during a consultancy engagement
-(http://www.nearform.com/nodecrunch/client-case-study-net-a-porter/) we were
+([http://www.nearform.com/nodecrunch/client-case-study-net-a-porter/](http://www.nearform.com/nodecrunch/client-case-study-net-a-porter/)) we were
 asked what logger we should recommend that had very little overhead. We tend to
 scratch our own itch.   
 
