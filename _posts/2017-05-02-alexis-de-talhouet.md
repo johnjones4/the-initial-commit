@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Alexis de Talhouët"
+image: "alexis.jpg"
 seo_title: "An Interview With OpenDaylight's Alexis de Talhouët"
 description: "I work mostly on the OpenDaylight project, maintaining many sub-projects it has, with a high amount of focus on the core projects."
 links:
