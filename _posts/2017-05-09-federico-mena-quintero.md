@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Federico Mena Quintero"
-seo_title: "An Interview With librsvg Maintainer Federico Mena Quintero"
+seo_title: "An Interview With Librsvg Maintainer Federico Mena Quintero"
 description: "Currently I only maintain librsvg, a small library to render SVG files - GNOME uses it to render icons in applications, for example, and Wikimedia uses it for the scalable diagrams in Wikipedia pages."
 links:
   - name: github.com/federicomenaquintero
