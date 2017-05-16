@@ -9,7 +9,7 @@ links:
   - name: tanner.xyz
     url: http://tanner.xyz/
 projects:
-  - name: Vapopr
+  - name: Vapor
     link: https://vapor.codes
 tags: ["swift"]
 ---
