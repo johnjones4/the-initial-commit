@@ -27,7 +27,7 @@ tags: [".NET", "F#"]
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?
 
-To new a few:
+To name a few:
 
 * https://suave.io
 * https://github.com/logary/logary
