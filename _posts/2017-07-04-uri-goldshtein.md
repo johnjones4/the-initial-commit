@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Uri Goldshtein"
+image: "uri.jpg"
 seo_title: "An Interview With Angular's Uri Goldshtein"
 description: "I was an Angular developer from very early on and really believed in that framework and the team behind it."
 links:
