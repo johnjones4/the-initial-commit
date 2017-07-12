@@ -18,33 +18,20 @@ tags: ["angular", "meteor", "javascript"]
 
 ### What project or projects do you maintain and what was your motivation for creating those projects and releasing them as open source software?
 
-Angular-meteor - I was an Angular developer from very early on and really
-believed in that framework and the team behind it.  I am also very very
-impressed by Meteor and it’s philosophy and goal - to create an open source
-Javascript platform.  So I had two reasons - one was to let me use both
-libraries in my own projects, and second was to share knowledge between the two
-communities.  Also I’ve created [this manifesto](https://angular-meteor.com/manifesto).
+[graphql-subscriptions](https://github.com/apollographql/graphql-subscriptions) - GraphQL Subscriptions is the part of the GraphQL protocol that lets you push real time data to your clients. There are many exciting things about that but for me the most interesting thing is we now have the option to have an open source standard for real time communication, unlike other real time solutions that dictate their own unique proprietary protocol. This library was the first implementation for Node users and helped shape the standard itself and the community around it together with Facebook. The best part in this work that the Apollo team and our community has done was to go on stage together with Lee Byron to announce the official addition of GraphQL Subscriptions to the spec.
 
-Angular2-apollo - Meteor has been around for 5 years and we are constantly
-thinking about where the ecosystem is heading next and how to progress the
-platform. One major thing that happened is that Facebook open-sourced GraphQL.
-At Meteor we saw that GraphQL solves a lot of the same problems we solved with
-the DDP protocol but also solves many more problems but is in general better for
-most use cases and more widely adopted by the community. So we look at it as
-kind of like DDP 2.0. Because we want to give our community a chance to upgrade
-to it gradually, we created separate libraries that anyone can use in their
-existing apps. My goal here was very similar to angular-meteor: expose the
-Angular community to the benefits of using GraphQL and give them a solution to
-make it easier for them.
+[Angular-meteor](https://angular-meteor.com/) - I was an Angular developer from very early on and really believed in that framework and the team behind it.  I also very very impressed my Meteor and it’s philosophy and goal - to create an open source Javascript platform.  So I had two reasons - one was to let me use both in order in my own projects, and second - to share knowledge between the two communities.  Also I’ve created [this manifesto](https://angular-meteor.com/manifesto).
 
-Meteor-rxjs - Here I’ve done the same but the other way around. The Angular
-community has really gathered around the concepts of reactive programming using
-rx-js, so I’ve decided to expose an RxJS API over Meteor’s Collections in order
-to expose the Meteor community to this great idea and give them tools to use it
-on their existing apps.
+[apollo-angular](https://github.com/apollographql/apollo-angular) - Meteor has been around for 5 years and we constantly thinking about where the ecosystem is heading next and how to progress the platform.  One major thing that happened is that Facebook open sourced GraphQL. At Meteor we saw the GraphQL solves a lot of the same problems we solved with the DDP protocol but also solves many more problems and is in general better for most use cases and more widely adopted by the community.  So we look at it as kind of like DDP 2.0.  Because we want to give our community a chance to upgrade to it gradually, we created separate libraries that anyone can use in their existing apps. My goal here was very similar to angular-meteor - expose the Angular community to the benefits of using GraphQL and giving them a solution to make it easier for them.
 
-In general I think that programming should be much easier than it is right now
-and that sharing ideas between the communities would really help with that.
+[Tortilla](https://github.com/Urigo/tortilla) - Framework for creating tutorials.  Tutorials are a huge passion of mine and I feel they never good enough. So I’ve created a framework to help people create high quality, easily updated tutorials. An example result can be shown by this tutorial - https://angular-meteor.com/tutorials/whatsapp2/ionic/setup
+
+[Meteor Client Bundler](https://github.com/Urigo/meteor-client-bundler) - A tool that helps decouple Meteor in order to Leverage the power of Meteor with any client-side framework
+
+[Meteor-rxjs](https://github.com/Urigo/meteor-rxjs) - Here I’ve done the same but the other way around. The Angular community has really gathered around the concepts of reactive programming using rx-js, so I’ve decided to expose an RxJS API over Meteor’s Collections in order to expose the Meteor community to this great idea and give them tools to use it on their existing apps.
+
+In general I think that programming should be much easier than it is right now and that sharing ideas between the communities would really help with that.
+
 
 ### If you created any of those projects, were they meant to solve a specific problem you faced, or were they born out of a larger opportunity you saw?
 
@@ -91,21 +78,16 @@ library.
 
 ### What keeps you involved in those projects? Do you have long term plans for maintaining your involvement?
 
-I feel responsible for the community. I gave lectures to a lot of people,
-telling them they should use this technology and bet on it. So I want to keep
-them happy and productive.
+I feel responsibility for the community.  I gave lectures to a lot of people, telling them they should use this technology and bet on it.  So I want to keep them happy and productive.
 
-Also, I have this weird idea in my head that most people would probably disagree
-with - open source libraries should be under a person's name and not under a
-Github organization. I believe that in this way maintainers will have to take
-more responsibility because it reflects directly on them. In a company, small
-things might get lost because the company might go in a different direction. It
-can also happen with individuals but I feel it will happen less.
+That’s why I’m really focusing now on GraphQL.  I really think it’s not only the right solution for the whole programming community, but especially the right solution for the current users of angular-meteor.
 
-Also, it’s easier to move things around if it’s under a person’s name, meaning,
-easier to fork and move the community around.  With an organization people
-follow the organization and not the code, and the power of the organization is
-too big.
+Also, I have this weird idea in my head that most people would probably disagree with - open source libraries should be under a person's name and not under Github organization.
+
+I believe that in this way maintainers will have to take more responsibility because it reflects directly to them.  In a company, small things might get lost because the company might go in a different direction. It can also happen with individuals but I feel it will happen less.
+
+Also, it’s easier to move things around if it’s under a person’s name, meaning, easier to fork and move the community around.  With an organization people follow the organization and not the code, the power of the organization is too big.
+
 
 ### What is the most important thing someone submitting an issue or patch should know?
 
